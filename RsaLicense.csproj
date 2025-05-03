@@ -6,17 +6,33 @@
     <Description>Rsa license package</Description>
     <Copyright>2025</Copyright>
     <PackageIcon>yellow-E (1).png</PackageIcon>
+    <RepositoryUrl>https://github.com/Kemorave/RsaLicense</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\Downloads\yellow-E (1).png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <PackageReference Include="System.Text.Json" Version="9.0.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Text.Json" Version="9.0.4" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\yellow-E %281%29.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
