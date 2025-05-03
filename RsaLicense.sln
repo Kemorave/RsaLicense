@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaLicense", "RsaLicense.csproj", "{19404175-6207-42FF-A246-8ACCB12B9E3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19404175-6207-42FF-A246-8ACCB12B9E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19404175-6207-42FF-A246-8ACCB12B9E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19404175-6207-42FF-A246-8ACCB12B9E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19404175-6207-42FF-A246-8ACCB12B9E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B01F84E-931D-4041-9B93-031566314059}
+	EndGlobalSection
+EndGlobal
